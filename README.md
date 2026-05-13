@@ -107,7 +107,7 @@ Team 2025-2026 :
 
 The authors warmly thank Thierry Chartier, Laurent Bramerie, Antoine Courtay supervisors of the project at Enssat, Philippe Laborie (Laboratoire de physique corpusculaire, Caen, France) and Etienne Poirier (IUEM, Plouzané, France), members of the steering committee, for their advice and support throughout the project. Special thanks to Etienne Poirier for giving the idea of the project, trusting us and welcome us at IUEM in the last days of the project.
 
-Authors are also very grateful to Pierre Guilleme teachers at Enssat, and Jean-Philippe Lesault, technician at Enssat, for their advice and technical support. 
+Authors are also very grateful to Pierre Guilleme teacher at Enssat, and Jean-Philippe Lesault, technician at Enssat, for their advice and technical support. 
 
 The dissolved oxygen sensor project started in september 2025 with a first team of Enssat students.
 
