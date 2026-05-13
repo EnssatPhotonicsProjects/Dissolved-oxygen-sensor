@@ -57,9 +57,9 @@ For a detailed list of components with the references, please refer to the [Comp
    git clone https://github.com/EnssatPhotonicsProjects/Dissolved-oxygen-sensor.git
    ```
 
-### Assembling the fluorometer
+### Assembling the dissolved oxygen sensor
 
-Follow the steps of the [assembly guide](assembly_guide.md) to build the fluorometer.
+Follow the steps of the [assembly guide](assembly_guide.md) to build the dissolved oxygen sensor.
 
 
 
