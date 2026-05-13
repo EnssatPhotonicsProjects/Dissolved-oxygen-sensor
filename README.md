@@ -112,6 +112,3 @@ Authors are also very grateful to Pierre Guilleme teachers at Enssat, and Jean-P
 The dissolved oxygen sensor project started in september 2025 with a first team of Enssat students.
 
 ## License
-
-
-For a detailed list of components with the references, please refer to the [Components List](hardware/components.md).
