@@ -10,7 +10,7 @@ This project aims to develop a low-cost optode for measuring dissolved oxygen co
 
 This GitHub repository contains all the necessary resources and instructions for making the device.
 
-The document [Optode overview](Optode_overview.pdf) aims to provide an overview of the technical aspects of our fluorometer.
+The document [Optode overview](Optode_overview.pdf) aims to provide an overview of the technical aspects of our sensor.
 
 ## Features
 
