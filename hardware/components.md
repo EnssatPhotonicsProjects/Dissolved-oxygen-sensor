@@ -15,7 +15,7 @@
 |Resistor 4,6 kΩ|||2|< 1 €|
 |Resistor 912 kΩ|||1|< 1 €|
 |Operational amplifier|TL081|[Mouser - 595-TL081CP](https://www.mouser.fr/ProductDetail/595-TL081CP)|2|0,54 €|
-| Voltage converter | MAX660 MAX660CPA+ | [Mouser 700-MAX660CPA](https://www.mouser.fr/ProductDetail/700-MAX660CPA) | 1 | 9.37 € |
+| Voltage converter | MAX660CPA+ | [Mouser 700-MAX660CPA](https://www.mouser.fr/ProductDetail/700-MAX660CPA) | 1 | 9.37 € |
 |Capacitor 47 nF|||2|< 1 €|
 |Capacitor 100 µF|||2|< 1 €|
 | OLED Screen 128x64 Dot Matrix | DFRRobot DFR0650 SSD1306 | [Mouser - DFR0650](https://www.mouser.fr/ProductDetail/DFRobot/DFR0650?qs=vmHwEFxEFR9nN6dqGZZLUA%3D%3D) | 1 | 12.47 € |
