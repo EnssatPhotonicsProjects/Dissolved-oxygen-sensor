@@ -18,7 +18,7 @@
 | Voltage converter | MAX660CPA+ | [Mouser 700-MAX660CPA](https://www.mouser.fr/ProductDetail/700-MAX660CPA) | 1 | 9.37 € |
 |Capacitor 47 nF|||2|< 1 €|
 |Capacitor 100 µF|||2|< 1 €|
-| CONF! OLED Screen 128x64 Dot Matrix | DFRRobot DFR0650 SSD1306 | [GOTRONIC - 39332](https://www.gotronic.fr/art-ecran-oled-0-96-fermion-48652.htm?srsltid=AfmBOopbvEcFfr3xbqxL34LAR4OPlT-fg73pTwQN6ZQW_NOIYodc0eT1) | 1 | 15.90 € |
+| OLED Screen 128x64 Dot Matrix | DFRRobot DFR0650 SSD1306 | [GOTRONIC - 39332](https://www.gotronic.fr/art-ecran-oled-0-96-fermion-48652.htm?srsltid=AfmBOopbvEcFfr3xbqxL34LAR4OPlT-fg73pTwQN6ZQW_NOIYodc0eT1) | 1 | 15.90 € |
 | SD Card Shield | TRU COMPONENTS TC-8579888 Shield | [Conrad - TC-8579888](https://www.conrad.fr/fr/p/tru-components-tc-8579888-shield-2144972.html) | 1 | 6.99 € |
 | Powerbank| Output 5 V - 2.4 A, dim. 100 x 50 x 25 mm max | [VRURC 2000mAh mini power bank](https://www.amazon.fr/gp/product/B099F29H7Y?smid=A2BNE5LRDUXQ6R&th=1) | 1 | 30 € |
 | Alimentation cable part 1 | Power splitter 5.5 x 2.1 mm CA50-2 | [Gotronic 49105](https://www.gotronic.fr/art-dedoubleur-d-alimentation-5-5-x-2-1-mm-ca50-2-24581.htm) + angled USB plug (homemade) | 1 | 2.65 € |
@@ -31,6 +31,9 @@
 
 | Component | Reference | Quantity | Price per unit |
 |-----------|-----------|----------|----------------|
+| Filament PLA black | | | |
+| PVC sleeve | 100 mm diameter | 1 | 1.50 € |
+| PVC plug | 100 mm diameter | 2 | 3.70 € |
 
 ## Final price
 
