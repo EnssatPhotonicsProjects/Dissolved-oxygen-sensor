@@ -13,7 +13,7 @@
 |Resistor 66 Ω|||1|< 1 €|
 |Resistor 1,2 kΩ|||2|< 1 €|
 |Resistor 4,6 kΩ|||2|< 1 €|
-|Resistor 10 kΩ|||2|< 1 €|
+|Resistor 10 kΩ|||1|< 1 €|
 |Resistor 912 kΩ|||1|< 1 €|
 |Operational amplifier|TL081|[Mouser - 595-TL081CP](https://www.mouser.fr/ProductDetail/595-TL081CP)|2|0,54 €|
 | Voltage converter | MAX660CPA+ | [Mouser 700-MAX660CPA](https://www.mouser.fr/ProductDetail/700-MAX660CPA) | 1 | 9.37 € |
