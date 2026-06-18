@@ -21,8 +21,8 @@
 | OLED Screen 128x64 Dot Matrix | DFRRobot DFR0650 SSD1306 | [GOTRONIC - 39332](https://www.gotronic.fr/art-ecran-oled-0-96-fermion-48652.htm?srsltid=AfmBOopbvEcFfr3xbqxL34LAR4OPlT-fg73pTwQN6ZQW_NOIYodc0eT1) | 1 | 15.90 € |
 | SD Card Shield | TRU COMPONENTS TC-8579888 Shield | [Conrad - TC-8579888](https://www.conrad.fr/fr/p/tru-components-tc-8579888-shield-2144972.html) | 1 | 6.99 € |
 | Powerbank| Output 5 V - 2.4 A, dim. 100 x 50 x 25 mm max | [VRURC 2000mAh mini power bank](https://www.amazon.fr/gp/product/B099F29H7Y?smid=A2BNE5LRDUXQ6R&th=1) | 1 | 30 € |
-| Alimentation cable part 1 | Power splitter 5.5 x 2.1 mm CA50-2 | [Gotronic 49105](https://www.gotronic.fr/art-dedoubleur-d-alimentation-5-5-x-2-1-mm-ca50-2-24581.htm) + angled USB plug (homemade) | 1 | 2.65 € |
-| CONF! Alimentation cable part 2 | USB cable male A right angled + USB male A | [TL494-ND Digikey UR020-006-RA](https://www.digikey.fr/fr/products/detail/eaton-tripp-lite/UR020-006-RA/4767696) | 1 | 9.23 € |
+| Alimentation cable part 1 |  |  | 1 |  € |
+| Alimentation cable part 2 | USB cable male A | | 1 | € |
 |Blue filter|Lee Filters - 118 Light Blue|[Lee Filters - 118 Light Blue](https://www.la-bs.com/fr/art/fl118_lee-filters-filtre-gelatine-lee-filters-118-effet-light-blue---feuille-122-x-53cm.htm)|1|11,14 €|
 |Red filter|Lee Filters - 182 Light Red|[Lee Filters - 182 Light Red](https://www.la-bs.com/ArticleDetails.aspx?Code=FL182)|1|12,16 €|
 
@@ -34,7 +34,10 @@
 | Filament PLA black | | | |
 | PVC sleeve | 100 mm diameter | 1 | 1.50 € |
 | PVC plug | 100 mm diameter | 2 | 3.70 € |
+| PMMA thickness 2 mm | | | € |
+| PMMA thickness 3 mm | | | € |
+| Screws, nuts, washers, spacers | - | | € |
 
 ## Final price
 
-The price is estimated in **May 2026** at ** without delivery**.
+The price is estimated in **June 2026** at ** without delivery**.
