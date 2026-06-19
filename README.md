@@ -6,7 +6,7 @@
 
 ## Description
 
-This project aims to develop a low-cost optode for measuring dissolved oxygen concentration in wtaer, a key indicator of the health of marine environments. The project is conducted by students in photonics from Enssat in collaboration with the European Institute for Marine Studies (IUEM) and is part of an open-source initiative to facilitate easy and cost-effective replication of the device.
+This project aims to develop a low-cost optode for measuring dissolved oxygen concentration in water, a key indicator of the health of marine environments. The project is conducted by students in photonics from Enssat in collaboration with the European Institute for Marine Studies (IUEM) and is part of an open-source initiative to facilitate easy and cost-effective replication of the device.
 
 This GitHub repository contains all the necessary resources and instructions for making the device.
 
