@@ -42,7 +42,6 @@ The main components are:
 | Photodiode | Detects red fluorescence |
 | Oxygen sensitive foil | Emits red fluorescence linked to the oxygen concentration |
 | Arduino | Microcontroller for processing |
-| Transistor | For LED power supply |
 | OLED Screen | Displays values |
 | MicroSD Card Shield | Saves data to a MicroSD card |
 | Temperature Sensor | Measures the temperature |
@@ -101,7 +100,7 @@ Contributions to this project are welcomed. Follow this procedure contribute:
 Team 2025-2026 :
 - Arthur Allaeys (IntricationQuantique)
 - Elisa Charron (Quazou54)
-- Brice Chupin
+- Brice Chupin (bricechup)
 - Léon Dolaine
 - Constant Ekpo
 - Ethan Geffroy
