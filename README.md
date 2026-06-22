@@ -50,15 +50,15 @@ The main components are:
 For a detailed list of components with the references, please refer to the [Components List](hardware/components.md).
 
 
-## Construction of the fluorometer
+## Construction of the device
 
 ### Prerequisites
 
 - Arduino IDE
 - Electronic components
+- Soldering equipment
 - 3D printer
 - Laser cutter
-- ...
 
 ### Installation Steps
 
