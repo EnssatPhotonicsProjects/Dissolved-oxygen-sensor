@@ -1,3 +1,5 @@
+// CREATION OF THE COMPLEX STRUCTURE
+
 #ifndef COMPLEX_H
 #define COMPLEX_H
 
@@ -6,7 +8,6 @@ struct Complex {
     float imag;
 };
 
-// Surcharge des opérateurs mathématiques basiques
 Complex operator+(const Complex& a, const Complex& b);
 Complex operator-(const Complex& a, const Complex& b);
 Complex operator*(const Complex& a, const Complex& b);
