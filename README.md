@@ -40,9 +40,11 @@ The main components are:
 |-----------|-------------|
 | LED | Light Emitting Diode for blue excitation |
 | Photodiode | Detects red fluorescence |
+| Oxygen sensitive foil | Emits red fluorescence linked to the oxygen concentration |
 | Arduino | Microcontroller for processing |
-| ADC | Analog to Digital Converter |
 | Transistor | For LED power supply |
+| OLED Screen | Displays values |
+| SD Card Shield | Saves values in an SD Card |
 | ......... | ......... |
 
 For a detailed list of components with the references, please refer to the [Components List](hardware/components.md).
