@@ -28,7 +28,6 @@ bool init_display() {
 
 // In order to display results
 bool update_display(float temperature, float o2_estimated_percent, float o2_sv_percent) {
-    
     // Security ping
     Wire1.beginTransmission(OLED_I2C_ADDRESS);
     byte error = Wire1.endTransmission();
@@ -63,7 +62,7 @@ bool update_display(float temperature, float o2_estimated_percent, float o2_sv_p
     return true; 
 }
 
-// In order to 
+// In order to display measuring screen
 bool show_measuring(int percent) {
     // Security ping
     Wire1.beginTransmission(OLED_I2C_ADDRESS);

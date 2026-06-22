@@ -2,7 +2,7 @@
 #include "display.h"
 #define CS_PIN 13
 
-static char filename[12]; 
+static char filename[15]; 
 File dataFile;
 
 // In order to init microSD card
@@ -27,8 +27,8 @@ bool init_sd_card() {
     
     // File name generator
     int file_index = 0;
-    while (file_index < 9999) {
-        sprintf(filename, "mes_%d.txt", file_index);
+    while (true) {
+        sprintf(filename, "m_%d.txt", file_index);
         if (!SD.exists(filename)) {
             break; // Name found
         }

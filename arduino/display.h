@@ -1,4 +1,4 @@
-// OLED MODULE DISPLAY (SSD1306)
+// OLED Screen 128x64 | Midas - MDOB128064V2V-YI
 
 #ifndef DISPLAY_H
 #define DISPLAY_H
