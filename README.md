@@ -16,7 +16,13 @@ The document [Optode overview](Optode_overview.pdf) aims to provide an overview 
 
 
 ## Principle of dissolved oxygen sensor
+
+<p align="center">
+  <img src="images/Principle_diagram.png" alt="Principle diagram" width="350"/>
+</p>
+
 The measurement principle is based on the blue light absorbed by a membrane exposed to water. The membrane then emits red light. By measuring the phase shift between the blue and red light, the concentration of dissolved oxygen can be determined.
+
 
 
 ## Functionality
@@ -47,6 +53,7 @@ For a detailed list of components with the references, please refer to the [Comp
 - Arduino IDE
 - Electronic components
 - 3D printer
+- Laser cutter
 - ...
 
 ### Installation Steps
