@@ -31,3 +31,25 @@ If you are prototyping or prefer not to use a PCB, you can assemble the circuit 
 1. Download the PCB design file from the repository:
 2. Order the PCB from a manufacturer or print it if you have the necessary equipment.
 3. Solder the components onto the PCB following the schematic diagram.
+
+## Step 3: Assemble the Support Structures
+
+Use the provided STL file to 3D print the necessary support structures with PLA filament, and a filling density of ??%. Printing takes about ?? hours : 
+
+- [LED and Photodiode Support](hardware/3D_ready_to_print_LED-Photodiode-Support.stl)
+
+Assemble the parts according to the instructions provided in the [Assembly Manual](structure_assembly_guide.md).
+
+## Step 4: Upload the Arduino Code
+
+1. Open the `.ino` file in the Arduino IDE.
+2. Connect your Arduino board to the computer.
+3. Select the correct board and port in the Arduino IDE.
+4. Upload the code to the Arduino board.
+
+## Step 5: Calibration
+
+
+## Troubleshooting
+
+If you encounter any issues during the assembly or operation of the device, open an issue in the repository.
