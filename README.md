@@ -21,7 +21,7 @@ The document [Optode overview](Optode_overview.pdf) aims to provide an overview 
   <img src="images/Principle_diagram.jpg" alt="Principle diagram" width="350"/>
 </p>
 
-The measurement principle is based on the blue light absorbed by a membrane exposed to water. The membrane then emits red light. By measuring the phase shift between the blue and red light, the concentration of dissolved oxygen can be determined.
+The measurement principle is based on the blue light absorbed by a membrane exposed to water. The membrane then emits red light through fluorescence. By measuring the phase shift between the blue and red light, the concentration of dissolved oxygen can be determined.
 
 
 
@@ -44,8 +44,8 @@ The main components are:
 | Arduino | Microcontroller for processing |
 | Transistor | For LED power supply |
 | OLED Screen | Displays values |
-| SD Card Shield | Saves values in an SD Card |
-| ......... | ......... |
+| MicroSD Card Shield | Saves data to a MicroSD card |
+| Temperature Sensor | Measures the temperature |
 
 For a detailed list of components with the references, please refer to the [Components List](hardware/components.md).
 
