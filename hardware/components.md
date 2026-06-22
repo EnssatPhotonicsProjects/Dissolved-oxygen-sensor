@@ -4,7 +4,7 @@
 
 | Component | Manufacturer - Ref | Seller - Ref | Quantity | Price per unit |
 |-----------|---------------------|--------------|----------|--------------------|
-|Oxygen sensitive spot|PSt3 - 5 mm diameter|[Presens - PSt3](https://www.presens.de/oemcustom/detail/oxygen-sensor-spot-sp-pst3-yau)|1|33.75 €|
+|Oxygen sensitive spot|Presens - PSt3-SA|[Presens - PSt3-SA23-D5-YOP-US]([https://www.presens.de/oemcustom/detail/oxygen-sensor-spot-sp-pst3-yau](https://www.presens.de/oemcustom/detail/self-adhesive-oxygen-sensor-spot-sp-pst3-sa))|1|33.75 €|
 |LED|Thorlabs - LED430L|[Thorlabs - LED430L](https://www.thorlabs.com/item/LED430L)|1|13.29 €|
 |Photodiode|Thorlabs - FDS100|[Thorlabs - FDS100](https://www.thorlabs.com/item/FDS100)|1|15.95 €|
 |Blue filter|Lee Filters - 118 Light Blue|[Lee Filters - 118 Light Blue](https://www.la-bs.com/fr/art/fl118_lee-filters-filtre-gelatine-lee-filters-118-effet-light-blue---feuille-122-x-53cm.htm)|1|11.14 €|
