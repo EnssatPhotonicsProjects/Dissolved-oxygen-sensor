@@ -106,10 +106,14 @@ Team 2025-2026 :
 
 ## Acknowledgments
 
-The authors warmly thank Thierry Chartier, Laurent Bramerie, Antoine Courtay supervisors of the project at Enssat, Philippe Laborie (Laboratoire de physique corpusculaire, Caen, France) and Etienne Poirier (IUEM, Plouzané, France), members of the steering committee, for their advice and support throughout the project. Special thanks to Etienne Poirier for giving the idea of the project, trusting us and welcome us at IUEM in the last days of the project.
+The authors warmly thank Laurent Bramerie, Thierry Chartier, Antoine Courtay supervisors of the project at Enssat, Philippe Laborie (Laboratoire de physique corpusculaire, Caen, France) and Etienne Poirier (IUEM, Plouzané, France), members of the steering committee, for their advice and support throughout the project. 
 
-Authors are also very grateful to Pierre Guilleme teacher at Enssat, and Jean-Philippe Lesault, technician at Enssat, for their advice and technical support. 
+Special thanks to Etienne Poirier for giving the idea of the project, helping us, trusting us and welcome us at IUEM in the last days of the project.
+
+Authors are also very grateful to Pierre Guilleme teacher at Enssat, and Jean-Philippe Lesault, technician at Enssat, for their advice and technical support. Specific thanks to Yvan Guilloit, in charge of the MakerSpace at IUT de Lannion, France, for his help in the integration of the device in the waterproof box.
 
 The dissolved oxygen sensor project started in september 2025 with a first team of Enssat students.
 
 ## License
+
+This project is licensed under [CC BY-SA 4.0]. Please see the [`LICENSE`](LICENSE.md) file for more details.
