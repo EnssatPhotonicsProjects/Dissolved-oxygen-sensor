@@ -14,16 +14,12 @@ The document [Optode overview](Optode_overview.pdf) aims to provide an overview 
 
 ## Features
 
-
 ## Principle of dissolved oxygen sensor
 
 <p align="center">
   <img src="images/Principle_diagram.jpg" alt="Principle diagram" width="350"/>
 </p>
-
-The measurement principle is based on the blue light absorbed by a membrane exposed to water. The membrane then emits red light through fluorescence. By measuring the phase shift between the blue and red light, the concentration of dissolved oxygen can be determined.
-
-
+The measurement principle is based on the use of a luminophore. An emitting blue light is absorbed by a sensitive foil exposed to water. Then it returns red light through fluorescence. By measuring the phase shift between the blue and red signal, the concentration of dissolved oxygen can be determined.
 
 ## Functionality
 
@@ -31,6 +27,7 @@ The measurement principle is based on the blue light absorbed by a membrane expo
   <img src="images/Block_diagram.jpg" alt="Block diagram" width="400"/>
 </p>
 
+The Arduino DUE coordinates the entire system. To ensure speed and accuracy, the microcontroller uses synchronous detection. It drives a blue LED (435 nm, filtered by a blue filter) for excitation and detects the resulting fluorescence at 635 nm using a photodiode (isolated by a red filter).  A temperature sensor is installed for measurements. Finally, the data—including the measured oxygen level—is displayed on the OLED screen and saved to the MicroSD card.
 
 ## Components
 
@@ -48,8 +45,7 @@ The main components are:
 
 For a detailed list of components with the references, please refer to the [Components List](hardware/components.md).
 
-
-## Construction of the device
+## Construction of the device : OXYMETER
 
 ### Prerequisites
 
@@ -71,8 +67,6 @@ For a detailed list of components with the references, please refer to the [Comp
 
 Follow the steps of the [assembly guide](assembly_guide.md) to build the dissolved oxygen sensor.
 
-
-
 ## Avenues for Improvement
 
 - ...
@@ -81,7 +75,7 @@ Contributions are welcomed to improve these points.
 
 ## To contribute
 
-Contributions to this project are welcomed. Follow this procedure contribute:
+Contributions to this project are welcomed. To contribute, follow these steps:
 
 1. **Fork the repository** and create your branch:
 
@@ -109,9 +103,6 @@ Team 2025-2026 :
 - Adam Monzon
 - Lucile Pointud
 - Sean Swidurski
-
-
-
 
 ## Acknowledgments
 
