@@ -27,7 +27,8 @@
 |Resistor 4,6 kΩ|||2|< 1 €|
 |Resistor 10 kΩ|||1|< 1 €|
 |Resistor 912 kΩ|||1|< 1 €|
-|Capacitor 47 nF|||2|< 1 €|
+|Capacitor 1 nF|||1|< 1 €|
+|Capacitor 47 nF|||1|< 1 €|
 |Capacitor 150 µF|||2|< 1 €|
 
 ## Case and support components
