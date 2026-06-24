@@ -1,0 +1,26 @@
+cff-version: 1.0.0
+message: "If you use this project, please quote the following work:"
+title: "Dissolved-oxygen-sensor by Enssat Photonics Projects"
+version: "1.0.0"  
+date-released: 2026-06-24
+authors:
+  - Arthur Allaeys (1)
+  - Elisa Charron (1)
+  - Brice Chupin (1)
+  - Léon Dolaine (1)
+  - Constant Ekpo (1)
+  - Ethan Geffroy (1)
+  - Nathan Maës (1)
+  - Alexandre Martin-Lefèvre (1)
+  - Adam Monzon (1)
+  - Lucile Pointud (1)
+  - Sean Swidurski (1)
+  - Laurent Bramerie (1)
+  - Thierry Chartier (1)
+  - Antoine Courtay (1)
+  - Etienne Poirier (2)
+affiliation: 
+  - (1) : Enssat, Lannion, France
+  - (2) : IUEM, Plouzané, France
+license: "CC BY-SA 4.0"  
+url: "https://github.com/EnssatPhotonicsProjects/Dissolved-oxygen-sensor" 
