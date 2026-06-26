@@ -27,7 +27,7 @@ The measurement principle is based on the use of a luminophore. An emitting blue
   <img src="images/Block_diagram.jpg" alt="Block diagram" width="400"/>
 </p>
 
-The Arduino DUE coordinates the entire system. To ensure speed and accuracy, the microcontroller uses synchronous detection. It drives a blue LED (435 nm, filtered by a blue filter) for excitation and detects the resulting fluorescence at 635 nm using a photodiode (isolated by a red filter). A temperature sensor is installed for measurements. Finally, the data is displayed on the OLED screen and saved to the MicroSD card.
+The Arduino DUE coordinates the entire system. To ensure speed and accuracy, the microcontroller uses synchronous detection. It drives a blue LED (435 nm) for excitation and detects the resulting fluorescence at 635 nm using a photodiode (isolated by a red filter). A temperature sensor is installed for measurements. Finally, the data is displayed on the OLED screen and saved to the MicroSD card.
 
 ## Components
 
