@@ -16,6 +16,7 @@
 |Carte Arduino DUE|Arduino - A000062|[RS - 769-7412](https://fr.rs-online.com/web/p/arduino/7697412)|1|53.35 €|
 |OLED Screen 128x64|Midas - MDOB128064V2V-YI|[RS - 225-6203](https://fr.rs-online.com/web/p/afficheurs-oled/2256203?cm_mmc=FR-PLA-DS3A-_-google-_-CSS_FR_FR_PMAX_Catch+All-_--_-2256203&matchtype=&&gclsrc=aw.ds&gad_source=1&gad_campaignid=20578377983&gclid=CjwKCAjwuuPRBhAnEiwA2Ji8eue6mATqNVXl64wRMDEGZ1CeZCikz2AyK8kzADg0yWCO6687G2VMoBoCh6wQAvD_BwE)|1|14.98 €|
 |MicroSD Card Shield|Whadda - WPI304N|[GO TRONIC - 38094](https://www.gotronic.fr/art-modules-pour-microsd-wpi304n-36272.htm?srsltid=AfmBOoqWtBrsumaazYW__d57M8hZxx-7irSGtLG6ziOxvBt3UBbHhm-0)|1|9.90 €|
+|Temperature sensor|TRU COMPONENTS TC-9445340|[Conrad - 2361335-62](https://www.conrad.fr/fr/p/tru-components-tc-9445340-capteur-de-temperature-1-pc-s-convient-pour-kits-de-developpement-arduino-2361335.html)|1|6.99 €|
 |Powerbank|Output 5 V - 2.4 A, dim. 100x50x25 mm max|[VRURC 2000mAh mini power bank](https://www.amazon.fr/gp/product/B099F29H7Y?smid=A2BNE5LRDUXQ6R&th=1)|1|30 €|
 |Voltage converter|Analog Devices - MAX660CPA+|[Mouser - 700-MAX660CPA](https://www.mouser.fr/ProductDetail/700-MAX660CPA)|1|9.37 €|
 |Transistor|Micro Commercial Components - PN2222A-AP|[Mouser - 833-PN2222A-AP](https://www.mouser.fr/ProductDetail/Micro-Commercial-Components-MCC/PN2222A-AP?qs=mbfHSLinrDJ%252BkMgMgskb1w%3D%3D&srsltid=AfmBOorcIFysPPM9w2MWh9wp_YjA4QU0-EKEL14hLmiOeeBCKcmG0ydO)|1|< 1 €|
