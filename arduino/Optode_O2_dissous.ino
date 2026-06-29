@@ -5,9 +5,8 @@
 #include "display.h"
 
 // Background noise of the circuit F0 
-// fourier = 0.00002949+0.00020857i V  -> pour theta = 214°
-// fourier = -0.00003597-0.00016840i V -> pour theta = 30°
-const Complex F0 = {0, 0};
+// fourier = 0.01513908+0.01901101i V
+const Complex F0 = {0.01513908, 0.01901101};
 
 // In order to test and setup the system
 void setup() {
@@ -65,7 +64,6 @@ void print_complex(Complex x){
 
 // In order to mesure, calculate, print results and write results
 void loop() {
-  delay(500);
   SerialUSB.println("-------------- Mesure --------------");
 
   // Measurement of temperature
@@ -88,7 +86,7 @@ void loop() {
   SerialUSB.println(" V");
 
   // Calculation of theta
-  float theta = atan2(corrected.imag, corrected.real)+(130)/180.0*3.14159265;
+  float theta = atan2(corrected.imag, corrected.real)+(144)/180.0*3.14159265;
   theta = theta*180.0/3.14159265;
   SerialUSB.print("theta = ");
   SerialUSB.print(theta, 4);

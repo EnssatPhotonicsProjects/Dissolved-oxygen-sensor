@@ -83,7 +83,7 @@ bool log_data(float temperature, float theta, float o2_estimated_percent, float 
         dataFile.close(); 
         return true;
     } else {
-        SerialUSB.print("Failed to open : [");
+        SerialUSB.print("Error : Failed to open : [");
         SerialUSB.print(filename);
         SerialUSB.println("]");
         SerialUSB.println("Error : Failed to write to the microSD card.");

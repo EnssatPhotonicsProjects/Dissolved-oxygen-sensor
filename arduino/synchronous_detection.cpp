@@ -107,7 +107,7 @@ bool init_synchronous_detection() {
 
 // In order to measure in loop
 Complex synchronous_detection(float average_duration) {   
-    target_points = (uint32_t)ceil(average_duration * FREQUENCY) * POINTS_PER_PERIOD;
+    target_points = (uint32_t)ceil(average_duration*FREQUENCY)*POINTS_PER_PERIOD;
 
     if (target_points == 0) return {0.0, 0.0};
 
@@ -127,13 +127,13 @@ Complex synchronous_detection(float average_duration) {
         uint32_t now = millis();
         // On rafraîchit la barre de progression toutes les 500 ms
         if (now - last_display_update > 500) {
-            float ratio = (float)current_points / (float)target_points;
-            int percent = (int)(ratio * 100.0);
+            float ratio = (float)current_points/(float)target_points;
+            int percent = (int)(ratio*100.0);
             
             SerialUSB.print(percent);
             SerialUSB.print(" % ");
             
-            show_measuring(percent);
+            //show_measuring(percent);
             
             last_display_update = now;
         }
@@ -175,7 +175,7 @@ void TC0_Handler() {
         current_points++;
         if (current_points >= target_points) {
             collection_active = false;
-            collection_done = true; // Signal la fin à la boucle while
+            collection_done = true; // Signale la fin à la boucle while
         }
     }
 

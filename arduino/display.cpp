@@ -5,7 +5,28 @@ U8G2_SSD1306_128X64_NONAME_F_2ND_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE)
 
 // In order to init display
 bool init_display() {
-    if (u8g2.begin()) {
+
+/*     if (!u8g2.begin(OLED_I2C_ADDRESS)) {
+        SerialUSB.println("Error : Failed to init display.");
+        return false;
+    }
+    else {
+        u8g2.enableUTF8Print();
+
+        u8g2.clearBuffer();
+        u8g2.setFont(u8g_font_7x14);
+        u8g2.drawStr(0, 26, "   CONNEXION TO   ");
+        u8g2.drawStr(0, 42, "   THE OXYMETER   ");
+        u8g2.sendBuffer();
+        delay(2500);
+        u8g2.clearBuffer();
+        u8g2.drawStr(0, 10, "Display : OK");
+        u8g2.sendBuffer();
+
+        SerialUSB.println("2. init_display OK");
+        return true;
+    } */
+    if (u8g2.begin(OLED_I2C_ADDRESS)) {
         u8g2.enableUTF8Print();
 
         u8g2.clearBuffer();
