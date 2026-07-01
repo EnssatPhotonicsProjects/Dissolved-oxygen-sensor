@@ -1,10 +1,11 @@
 #include "temperature.h"
-#include "display.h"
 #define ONE_WIRE_BUS 2 
 
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
+float old_temp = 0.0;
 
+// In order to init temperature
 bool init_temperature() {
     sensors.begin();
 
@@ -27,18 +28,18 @@ bool init_temperature() {
     }
 }
 
+// In order to measure temperature
 float read_temperature() {
-    // 1. On coupe le sifflet du Timer de façon absolue.
+    // Turn off timer's beep
     NVIC_DisableIRQ(TC0_IRQn); 
     sensors.setWaitForConversion(true); 
 
-    // 2. On lance la mesure (le code va bloquer ici)
+    // Start measurement
     sensors.requestTemperatures(); 
     
-    // 3. On arrache la donnée
+    // Extract data
     float temp = sensors.getTempCByIndex(0);
     
-    // 4. On vide le tampon du timer pour éviter le crash, et on le rallume
     volatile uint32_t dummy = TC0->TC_CHANNEL[0].TC_SR;
     (void)dummy;
     NVIC_ClearPendingIRQ(TC0_IRQn);
@@ -46,21 +47,31 @@ float read_temperature() {
     
     return temp;
 }
-float old_temp = 0.0;
+
+// In order to be able to retry 
 float read_temperature_retry(uint n_retry) {
     float temp = -127;
     int retries = 0;
+
     while (temp <= -100.0 && retries < n_retry) {
         delay(1000);
-        //SerialUSB.print("try: ");
-        //SerialUSB.println(retries+1);
+        SerialUSB.print("temperature try : ");
+        SerialUSB.print(retries+1);
+
         temp = read_temperature();
         retries++;
     }
+
     if (temp <= -100){
         //SerialUSB.println("fail :(");
         temp = old_temp;
     }
+
     old_temp = temp;
+
+    SerialUSB.print(" -> temperature = ");
+    SerialUSB.print(temp, 2);
+    SerialUSB.println(" °C");
+    
     return temp;
 }

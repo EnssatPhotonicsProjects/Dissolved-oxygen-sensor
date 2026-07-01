@@ -1,5 +1,4 @@
 #include "microSD_card.h"
-#include "display.h"
 #define CS_PIN 13
 
 static char filename[15]; 
@@ -7,7 +6,6 @@ File dataFile;
 
 // In order to init microSD card
 bool init_sd_card() {
-    // Initialization
     pinMode(CS_PIN, OUTPUT);
     digitalWrite(CS_PIN, HIGH);
     delay(100);
