@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 793.7007874015749 1122.5196850393702"
+   width="793.7007874015749"
+   height="1122.5196850393702"
+   version="1.1"
+   id="svg166"
+   sodipodi:docname="Ready_to_laser_cut_amount.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview168"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.26"
+     inkscape:cx="214.28571"
+     inkscape:cy="279.7619"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1" />
+  <desc
+     id="desc2">Plaque face-Vfinale.dxf - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
+  <defs
+     id="defs16">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0.0"
+       refY="0.0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5"
+         id="path4" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path7" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path9" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path11" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE" />
+    <symbol
+       id="*PAPER_SPACE" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="0"
+     id="g18" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="SECTION_CUTTING_LINE"
+     id="g20" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="DETAIL_VIEW_BORDER"
+     id="g22" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="DETAIL_VIEW_PARENT_BORDER"
+     id="g24" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="TEXT"
+     id="g26" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="SKETCHED_GEOMETRY"
+     id="g28" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="VIRTUAL_SHARPS"
+     id="g30" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="CENTERLINES"
+     id="g32" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="CENTERMARKS"
+     id="g34" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="TABLES"
+     id="g36" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="IMAGES"
+     id="g38" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="ANNOTATION_LINES"
+     id="g40" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="ANNOTATION_TEXT"
+     id="g42" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="SIDE_THREAD_SYMBOLS"
+     id="g44" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="SIDE_THREAD_SYMBOLS_HIDDEN"
+     id="g46" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="SURFACE_THREAD_SYMBOLS"
+     id="g48" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="SURFACE_THREAD_SYMBOLS_ON_"
+     id="g50" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="SURFACE_THREAD_SYMBOLS_HID"
+     id="g52" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="BLIND_THREAD_SYMBOLS"
+     id="g54" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="BLIND_THREAD_SYMBOLS_HIDDE"
+     id="g56" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="EXPLODE_LINES"
+     id="g58" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="HIDDEN_EXPLODE_LINES"
+     id="g60" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="BREAK_LINES"
+     id="g62" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="SHEETMETAL_BEND_LINES_UP"
+     id="g64" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="SHEETMETAL_BEND_LINES_DOWN"
+     id="g66" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="SHEETMETAL_BEND_TANGENT_LI"
+     id="g68" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="SHEETMETAL_CUT_LINES"
+     id="g70" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="SHEETMETAL_CBORE_CSINK_UP"
+     id="g72" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="SHEETMETAL_CBORE_CSINK_DOW"
+     id="g74" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="SHEETMETAL_FORM_TEAR"
+     id="g76" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="SHEETMETAL_FORM_UP"
+     id="g78" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="SHEETMETAL_FORM_DOWN"
+     id="g80" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="SHEETMETAL_FORM_CENTERMARK"
+     id="g82" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="REGION_ASSOC_POINTS"
+     id="g84" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="PATTERN_CENTERLINES"
+     id="g86" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="HIDDEN"
+     id="g88" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="VISIBLE"
+     id="g90" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="MODELSKETCH_VISIBLE"
+     id="g148">
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="m 265.06728,516.40725 h -37.7954"
+       id="path100" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="m 227.27188,49.633276 v -11.338"
+       id="path102" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="M 76.090673,505.06725 H 227.27188"
+       id="path104" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="M 76.090673,49.633276 H 227.27188"
+       id="path110" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="m 265.06728,505.06725 v 11.34"
+       id="path112" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="m 265.06728,38.295276 h -37.7954"
+       id="path116" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="m 227.27188,505.06725 v 11.34"
+       id="path118" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="m 265.06728,49.633276 v -11.338"
+       id="path122" />
+    <path
+       d="m 111.05009,76.088946 a 3.77955,3.77955 0 0 0 7.5591,0"
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       id="path92-2" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="m 118.60919,60.968316 v 15.12"
+       id="path94-1" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="m 111.05009,60.968316 v 15.12"
+       id="path96-6" />
+    <path
+       d="m 192.30997,60.970826 a 3.779535,3.779535 0 0 0 -7.55907,0"
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       id="path106-8" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="m 184.75088,60.968296 v 15.12"
+       id="path114-5" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="m 192.30998,60.968296 v 15.12"
+       id="path120-7" />
+    <path
+       d="m 118.60919,60.970836 a 3.77955,3.77955 0 0 0 -7.5591,0"
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       id="path124-6" />
+    <path
+       d="m 184.75091,76.088916 a 3.77953,3.77953 0 0 0 7.55906,0"
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       id="path126-1" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="M 265.06728,505.06725 V 49.633286"
+       id="path130" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="m 76.090676,49.633276 v -11.338"
+       id="path132" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="m 38.295276,49.633276 v -11.338"
+       id="path134" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="m 38.295276,38.295276 h 37.7954"
+       id="path136" />
+    <g
+       id="g1"
+       transform="translate(-15.674794,-547.30411)">
+      <path
+         d="m 206.37214,856.80985 a 6.614175,6.614175 0 0 0 -13.22834,0 6.614175,6.614175 0 0 0 13.22834,0 z"
+         style="fill:none;stroke:#ff0000;stroke-opacity:1"
+         id="path98" />
+      <path
+         d="m 264.45613,664.77206 a 6.614395,6.614395 0 0 0 -13.22879,0 6.614395,6.614395 0 0 0 13.22879,0 z"
+         style="fill:none;stroke:#ff0000;stroke-opacity:1"
+         id="path108" />
+      <path
+         d="m 264.45509,948.23565 a 6.614395,6.614395 0 0 0 -13.22879,0 6.614395,6.614395 0 0 0 13.22879,0 z"
+         style="fill:none;stroke:#ff0000;stroke-opacity:1"
+         id="path108-8" />
+      <path
+         d="m 82.482176,970.16447 a 6.614395,6.614395 0 0 0 -13.22879,0 6.614395,6.614395 0 0 0 13.22879,0 z"
+         style="fill:none;stroke:#ff0000;stroke-opacity:1"
+         id="path108-9" />
+      <path
+         d="m 82.482996,660.23662 a 6.6141735,6.6141735 0 0 0 -13.22834,0 6.6141735,6.6141735 0 0 0 13.22834,0 z"
+         style="fill:none;stroke:#ff0000;stroke-opacity:1"
+         id="path128" />
+      <path
+         d="m 101.01025,856.77205 a 6.61418,6.61418 0 0 0 -13.228359,0 6.61418,6.61418 0 0 0 13.228359,0 z"
+         style="fill:none;stroke:#ff0000;stroke-opacity:1"
+         id="path138" />
+    </g>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="M 38.295278,505.06725 V 49.633286"
+       id="path140" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="m 76.090676,505.06725 v 11.34"
+       id="path142" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="m 38.295276,516.40725 h 37.7954"
+       id="path144" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-opacity:1"
+       d="m 38.295276,505.06725 v 11.34"
+       id="path146" />
+    <circle
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1"
+       id="path1"
+       cx="188.53149"
+       cy="203.64961"
+       r="3.7795277" />
+    <circle
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1"
+       id="path1-9"
+       cx="114.83071"
+       cy="203.64961"
+       r="3.7795277" />
+    <ellipse
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1;stroke-opacity:1;stroke-dasharray:none"
+       id="path1-9-9"
+       cx="62.362209"
+       cy="341.15149"
+       rx="5.0069542"
+       ry="5.0069528" />
+    <ellipse
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1;stroke-opacity:1;stroke-dasharray:none"
+       id="path1-9-9-8"
+       cx="119.05512"
+       cy="341.15149"
+       rx="5.0069542"
+       ry="5.0069528" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="MODELSKETCH_POINT"
+     id="g150" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="MODELSKETCH_CONSTRUCTION"
+     id="g152" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="HIDDEN_BASE_VIEW"
+     id="g154" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="TANGENT_LINES"
+     id="g156" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="TANGENT_HIDDEN"
+     id="g158" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="INVISIBLE_LINES"
+     id="g160" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="VIEW_HATCHES"
+     id="g162" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="SECTION_JOG_LINES"
+     id="g164" />
+</svg>
