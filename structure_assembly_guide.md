@@ -58,43 +58,65 @@ The materials required for this step are :
 
 1. Cut the structure in the PMMA sheets with the laser cutter. In 2 mm PMMA, cut the [plates](hardware/Ready_to_laser_cut_plates.svg). In 3 mm PMMA, cut the [amount](hardware/Ready_to_laser_cut_amount.svg).
 
-(image)
+<p align="center">
+  <img src="images/3D_printed_structure_assembly/1.laser_cutter.jpg" alt="1.laser_cutter" width="400"/>
+</p>
+
+
 
 2. Screw 3 screws and nuts to the Arduino board, as shown in the photo below. Connect the PCB to the Arduino board.
 
-(double image)
+<p align="center">
+  <img src="images/3D_printed_structure_assembly/2.arduino.jpg" alt="2.arduino" width="400"/> <img src="images/3D_printed_structure_assembly/3.PCB.jpg" alt="3.PCB" width="400"/>
+</p>
 
 3. Take the face plate. Locate the side where the Arduino board goes. On the opposite side, screw the SD Card shield. Put a nuts between the shield and the plate.
 
-(image)
+<p align="center">
+  <img src="images/3D_printed_structure_assembly/4.microSD_card.jpg" alt="4.microSD_card" width="400"/>
+</p>
 
 4. Screw the Arduino board on the opposite face of the plate.
 
-(image)
+<p align="center">
+  <img src="images/3D_printed_structure_assembly/5.amount.jpg" alt="5.amount" width="400"/>
+</p>
 
 5. Take the bottom plate and the LED and photodiode support. Screw this support under the bottom plate. Make sure that the large hole in the plate is on the same side as the wires. Pass the wires through the hole.
 
-(image)
+<p align="center">
+  <img src="images/3D_printed_structure_assembly/.jpg" alt="" width="400"/>
+</p>
 
 6. Screw the 30 mm spacers into the four corners.
 
-(image)
+<p align="center">
+  <img src="images/3D_printed_structure_assembly/.jpg" alt="" width="400"/>
+</p>
 
 7. Screw the LED, photodiode and temperature sensor wires into terminal strips of the PCB.
 
-(image)
+<p align="center">
+  <img src="images/3D_printed_structure_assembly/.jpg" alt="" width="400"/>
+</p>
 
 8. Put the face plate in the bottom plate, bend the wires of the LEDs and photodiode, without moving LED and photodiode.
 
-(image)
+<p align="center">
+  <img src="images/3D_printed_structure_assembly/.jpg" alt="" width="400"/>
+</p>
 
 9. Screw the top plate.
 
-(image)
+<p align="center">
+  <img src="images/3D_printed_structure_assembly/.jpg" alt="" width="400"/>
+</p>
 
 10. Put the powerbank and the alimentation cable. Fasten it to the spacers with a cable tie.
 
-(image)
+<p align="center">
+  <img src="images/3D_printed_structure_assembly/.jpg" alt="" width="400"/>
+</p>
 
 ## Step 3 : Assemble the waterproof box
 
