@@ -49,14 +49,14 @@ The materials required for this step are :
 - A powerbank (100 x 50 x 2.5) mm max
 - A output power supply and angled USB output cable
 - The LED and photodiode AD support made in the previous step
-- PMMA sheet, thickness 3 mm
-- PMMA sheet, thickness 2 mm
+- PMMA sheet or wood, thickness 3 mm
+- PMMA sheet, thickness 1.5 mm
 - Screwdrivers
 - Laser cutter
 
 (image composants)
 
-1. Cut the structure in the PMMA sheets with the laser cutter. In 2 mm PMMA, cut the [plates](hardware/Ready_to_laser_cut_plates.svg). In 3 mm PMMA, cut the [amount](hardware/Ready_to_laser_cut_amount.svg).
+1. Cut the structure in the PMMA sheets with the laser cutter. In 1.5 mm PMMA, cut the [plates](hardware/Ready_to_laser_cut_plates.svg). In 3 mm PMMA, cut the [amount](hardware/Ready_to_laser_cut_amount.svg).
 
 <p align="center">
   <img src="images/3D_printed_structure_assembly/1.laser_cutter.jpg" alt="1.laser_cutter" width="400"/>
