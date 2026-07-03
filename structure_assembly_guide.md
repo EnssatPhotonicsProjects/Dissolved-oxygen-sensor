@@ -23,7 +23,7 @@ Start by soldering wires to the LEDs and photodiode terminal. Pay attention to t
 When this is done, you can assemble de following components :
 - Blue LED
 - Photodiode
-- (Red filter : 14 x 17 mm) X2
+- (Red filter : 19 x 18 mm) X2
 - [3D printed support](Ready_to_laser_cut_LED-photodiode-support.stl)
 
 (image composants)
