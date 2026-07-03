@@ -26,15 +26,21 @@ When this is done, you can assemble de following components :
 - (Red filter : 19 x 18 mm) X2
 - [3D printed support](Ready_to_laser_cut_LED-photodiode-support.stl)
 
-(image composants)
+<p align="center">
+  <img src="images/1.0.components.jpg" alt="" width="400"/>
+</p>
 
 1. Position the LED and the photodiode in their location. If they do not fit, you can lightly file the inside of the holes. The components must be perfectly held by the support and must not move. The wires must come out of the back of the bracket. You can add small pieces of adhesive tape to the edges of the LED and the photodiode to ensure they do not slip out of the holders.
 
-(double image)
+<p align="center">
+  <img src="images/1.LED-photodiode.jpg" alt="" width="400"/>
+</p>
 
 2. Add the two pieces of red filter. You can slide them in front of the photodiode location.
 
-(image)
+<p align="center">
+  <img src="images/2.filters.jpg" alt="" width="400"/>
+</p>
 
 ## Step 2 : Assemble the internal structure
 
