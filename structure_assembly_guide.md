@@ -79,7 +79,7 @@ The materials required for this step are :
 3. Take the face plate. Locate the side where the Arduino board goes. On the opposite side, screw the SD Card shield. Put a nuts between the shield and the plate.
 
 <p align="center">
-  <img src="images/structure_assembly/3.modules.jpg" alt="4.modules" width="400"/>
+  <img src="images/structure_assembly/3.modules.jpg" alt="3.modules" width="400"/>
 </p>
 
 4. Screw the Arduino board on the opposite face of the plate.
@@ -91,37 +91,37 @@ The materials required for this step are :
 5. Take the bottom plate and the LED and photodiode support. Screw this support under the bottom plate. Make sure that the large hole in the plate is on the same side as the wires. Pass the wires through the hole.
 
 <p align="center">
-  <img src="images/structure_assembly/3D_printed_structure_assembly/.jpg" alt="" width="400"/>
+  <img src="images/structure_assembly/.jpg" alt="" width="400"/>
 </p>
 
 6. Screw the 30 mm spacers into the four corners.
 
 <p align="center">
-  <img src="images/3D_printed_structure_assembly/.jpg" alt="" width="400"/>
+  <img src="images/structure_assembly/.jpg" alt="" width="400"/>
 </p>
 
 7. Screw the LED, photodiode and temperature sensor wires into terminal strips of the PCB.
 
 <p align="center">
-  <img src="images/3D_printed_structure_assembly/.jpg" alt="" width="400"/>
+  <img src="images/structure_assembly/.jpg" alt="" width="400"/>
 </p>
 
 8. Put the face plate in the bottom plate, bend the wires of the LEDs and photodiode, without moving LED and photodiode.
 
 <p align="center">
-  <img src="images/3D_printed_structure_assembly/.jpg" alt="" width="400"/>
+  <img src="images/structure_assembly/.jpg" alt="" width="400"/>
 </p>
 
 9. Screw the top plate.
 
 <p align="center">
-  <img src="images/3D_printed_structure_assembly/.jpg" alt="" width="400"/>
+  <img src="images/structure_assembly/8.top.jpg" alt="8.top" width="400"/>
 </p>
 
 10. Put the powerbank and the alimentation cable. Fasten it to the spacers with a cable tie.
 
 <p align="center">
-  <img src="images/3D_printed_structure_assembly/.jpg" alt="" width="400"/>
+  <img src="images/structure_assembly/9.battery.jpg" alt="9.battery" width="400"/>
 </p>
 
 ## Step 3 : Assemble the waterproof box
