@@ -6,7 +6,7 @@ This guide provides detailed instructions on how to assemble the Dissolved-oxyge
 
 Before starting the assembly process, ensure you have the following tools and components ready:
 
-- Components from the [Components List](hardware/components.md)
+- Components from the [List of components](hardware/components.md)
 - PVC glue
 - Sandpaper
 - PVC stripper
