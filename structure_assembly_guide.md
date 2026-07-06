@@ -20,7 +20,7 @@ Before starting the assembly process, ensure you have the following tools and co
 
 Start by soldering wires to the LEDs and photodiode terminal. Pay attention to the polarity of the terminals : you can solder a red wire on the + terminals of the LED and the cathode terminal of the photodiode. A black wire can be soldered on the - terminals of the LEDs and on the anode of the photodiode.
 
-When this is done, you can assemble de following components :
+When this is done, you can assemble following components :
 - Blue LED
 - Photodiode
 - (Red filter : 19 x 18 mm) X2
