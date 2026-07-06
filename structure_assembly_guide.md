@@ -27,19 +27,19 @@ When this is done, you can assemble de following components :
 - [3D printed support](Ready_to_laser_cut_LED-photodiode-support.stl)
 
 <p align="center">
-  <img src="images/1.0.components.jpg" alt="0.components" width="400"/>
+  <img src="images/3D_printed_structure_assembly/1.0.components.jpg" alt="0.components" width="400"/>
 </p>
 
 1. Position the LED and the photodiode in their location. If they do not fit, you can lightly file the inside of the holes. The components must be perfectly held by the support and must not move. The wires must come out of the back of the bracket. You can add small pieces of adhesive tape to the edges of the LED and the photodiode to ensure they do not slip out of the holders.
 
 <p align="center">
-  <img src="images/1.LED-photodiode.jpg" alt="1.LED-photodiode" width="400"/>
+  <img src="images/3D_printed_structure_assembly/1.LED-photodiode.jpg" alt="1.LED-photodiode" width="400"/>
 </p>
 
 2. Add the two pieces of red filter. You can slide them in front of the photodiode location.
 
 <p align="center">
-  <img src="images/2.filters.jpg" alt="2.filters" width="400"/>
+  <img src="images/3D_printed_structure_assembly/2.filters.jpg" alt="2.filters" width="400"/>
 </p>
 
 ## Step 2 : Assemble the internal structure
@@ -61,37 +61,37 @@ The materials required for this step are :
 - Laser cutter
 
 <p align="center">
-  <img src="images/2.0.components.jpg" alt="0.components" width="400"/>
+  <img src="images/structure_assembly/2.0.components.jpg" alt="0.components" width="400"/>
 </p>
 
 1. Cut the structure in the PMMA sheets with the laser cutter. In 1.5 mm PMMA, cut the [plates](hardware/Ready_to_laser_cut_plates.svg). In 3 mm PMMA, cut the [amount](hardware/Ready_to_laser_cut_amount.svg).
 
 <p align="center">
-  <img src="images/1.laser_cutter.jpg" alt="1.laser_cutter" width="400"/>
+  <img src="images/structure_assembly/1.laser_cutter.jpg" alt="1.laser_cutter" width="400"/>
 </p>
 
 2. Screw 3 screws and nuts to the Arduino board, as shown in the photo below. Connect the PCB to the Arduino board.
 
 <p align="center">
-  <img src="images/2.arduino.jpg" alt="2.arduino" width="400"/> <img src="images/2.PCB.jpg" alt="2.PCB" width="400"/>
+  <img src="images/structure_assembly/2.arduino.jpg" alt="2.arduino" width="400"/> <img src="images/structure_assembly/2.PCB.jpg" alt="2.PCB" width="400"/>
 </p>
 
 3. Take the face plate. Locate the side where the Arduino board goes. On the opposite side, screw the SD Card shield. Put a nuts between the shield and the plate.
 
 <p align="center">
-  <img src="images/3.modules.jpg" alt="4.modules" width="400"/>
+  <img src="images/structure_assembly/3.modules.jpg" alt="4.modules" width="400"/>
 </p>
 
 4. Screw the Arduino board on the opposite face of the plate.
 
 <p align="center">
-  <img src="images/4.middle_structure_above.jpg" alt="4.middle_structure_above" width="400"/> <img src="images/4.middle_structure_side.jpg" alt="4.middle_structure_side" width="400"/>
+  <img src="images/structure_assembly/4.middle_structure_above.jpg" alt="4.middle_structure_above" width="400"/> <img src="images/structure_assembly/4.middle_structure_side.jpg" alt="4.middle_structure_side" width="400"/>
 </p>
 
 5. Take the bottom plate and the LED and photodiode support. Screw this support under the bottom plate. Make sure that the large hole in the plate is on the same side as the wires. Pass the wires through the hole.
 
 <p align="center">
-  <img src="images/3D_printed_structure_assembly/.jpg" alt="" width="400"/>
+  <img src="images/structure_assembly/3D_printed_structure_assembly/.jpg" alt="" width="400"/>
 </p>
 
 6. Screw the 30 mm spacers into the four corners.
