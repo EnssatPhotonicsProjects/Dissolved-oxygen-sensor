@@ -27,7 +27,7 @@ When this is done, you can assemble de following components :
 - [3D printed support](Ready_to_laser_cut_LED-photodiode-support.stl)
 
 <p align="center">
-  <img src="images/3D_printed_structure_assembly/1.0.components.jpg" alt="0.components" width="400"/>
+  <img src="images/3D_printed_structure_assembly/0.components.jpg" alt="0.components" width="400"/>
 </p>
 
 1. Position the LED and the photodiode in their location. If they do not fit, you can lightly file the inside of the holes. The components must be perfectly held by the support and must not move. The wires must come out of the back of the bracket. You can add small pieces of adhesive tape to the edges of the LED and the photodiode to ensure they do not slip out of the holders.
@@ -61,7 +61,7 @@ The materials required for this step are :
 - Laser cutter
 
 <p align="center">
-  <img src="images/structure_assembly/2.0.components.jpg" alt="0.components" width="400"/>
+  <img src="images/structure_assembly/0.components.jpg" alt="0.components" width="400"/>
 </p>
 
 1. Cut the structure in the PMMA sheets with the laser cutter. In 1.5 mm PMMA, cut the [plates](hardware/Ready_to_laser_cut_plates.svg). In 3 mm PMMA, cut the [amount](hardware/Ready_to_laser_cut_amount.svg).
