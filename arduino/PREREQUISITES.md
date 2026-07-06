@@ -1,12 +1,13 @@
 # Prerequisites & Project Configuration
 
 This document outlines the software dependencies, compatible hardware, and code architecture required to compile and run the open-source dissolved oxygen sensor (oxymeter) firmware.
-> **WARNING:** This firmware is designed **strictly for the Arduino Due** (3.3V ARM Cortex-M3 SAM3X8E architecture). It relies on low-level hardware registers (Hardware Timers `TC0`, high-speed analog-to-digital conversion `ADC`, and digital-to-analog conversion `DAC`).
+> **WARNING :** This firmware is designed strictly for the Arduino Due (3.3V ARM Cortex-M3 SAM3X8E architecture). It relies on low-level hardware registers (Hardware Timers `TC0`, high-speed analog-to-digital conversion `ADC`, and digital-to-analog conversion `DAC`).
 
 
 ## 1. Arduino dependencies
 
-Before compiling in the Arduino IDE, ensure the following external libraries are installed via the **Library Manager** (`Sketch` > `Include Library` > `Manage Libraries...`).
+Before compiling in the Arduino IDE, ensure the following external libraries are installed via the **Library Manager** :
+(`Sketch` > `Include Library` > `Manage Libraries...`)
 
 ### External libraries to install:
 * **`U8g2`** : Optimized monochrome display library (hardware I2C mode) for the OLED display.
@@ -21,13 +22,13 @@ Before compiling in the Arduino IDE, ensure the following external libraries are
 
 ## 2. Modular architecture
 
-The firmware follows the Single Responsibility Principle, dividing the system into isolated, maintainable modules:
+The firmware follows the single responsibility principle, dividing the system into isolated and maintainable modules :
 
 ```text
-├── Optode_O2_dissous.ino   # System orchestrator: main loop and measurement cycle sequencing
-├── synchronous_detection.* # Low-level lock-in amplifier (Timer ISRs, DAC sine modulation, ADC reads)
-├── tools.* # Mathematical models (F0 noise subtraction, Stern-Volmer, polynomial fit)
-├── complex.* # Custom operator overloading for complex number arithmetic (+, -, *, /)
-├── temperature.* # Non-blocking thermal reads with safe interrupt management
-├── display.* # OLED visual interfaces (boot status, live results, progress bar)
-└── microSD_card.* # Data logging: automatic session file creation and TSV data writing
+├── Optode_O2_dissous.ino     # System orchestrator (main loop and measurement cycle sequencing)
+├── synchronous_detection.*   # Low-level lock-in amplifier (Timer ISRs, DAC sine modulation, ADC reads)
+├── tools.*                   # Mathematical models (F0 noise subtraction, Stern-Volmer, polynomial fit)
+├── complex.*                 # Custom operator for complex number arithmetic (+, -, *, /)
+├── temperature.*             # Thermal reads with safe interrupt management (Non-blocking)
+├── display.*                 # OLED visual interfaces (boot status, live results, progress bar)
+└── microSD_card.*            # Data logging (automatic session file creation and TSV data writing)
