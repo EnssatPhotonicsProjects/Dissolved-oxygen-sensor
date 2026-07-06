@@ -1,10 +1,11 @@
-# Prerequisites & Project Configuration
+# Prerequisites & code configuration
 
 This document outlines the software dependencies and code architecture required to compile and run the open-source dissolved oxygen sensor (oxymeter) firmware.
-> **WARNING :** This firmware is designed strictly for the Arduino Due (3.3V ARM Cortex-M3 SAM3X8E architecture). It relies on low-level hardware registers (Hardware Timers `TC0`, high-speed analog-to-digital conversion `ADC`, and digital-to-analog conversion `DAC`).
+
+> **WARNING :** This firmware is designed strictly for the Arduino Due (3.3V ARM Cortex-M3 SAM3X8E architecture). It relies on low-level hardware registers (Hardware Timers `TC0`, analog-to-digital conversion `ADC` and digital-to-analog conversion `DAC`).
 
 
-## 1. Arduino dependencies
+## Arduino dependencies
 
 Before compiling in the Arduino IDE, ensure the following external libraries are installed via the **Library Manager** :
 (`Sketch` > `Include Library` > `Manage Libraries...`)
@@ -15,12 +16,12 @@ Before compiling in the Arduino IDE, ensure the following external libraries are
 * **`DallasTemperature`** : High-level abstraction for precision temperature reads.
 
 ### Native libraries (Included with Arduino SAM Boards package):
-* **`SPI`**: High-speed communication for the MicroSD card shield.
-* **`SD`**: FAT16/FAT32 file system management for data logging.
-* **`Wire`**: I2C communication for the OLED display (utilizing the Due's secondary I2C port `Wire1`).
+* **`SPI`** : High-speed communication for the MicroSD card shield.
+* **`SD`** : FAT16/FAT32 file system management for data logging.
+* **`Wire`** : I2C communication for the OLED display (utilizing the Due's secondary I2C port `Wire1`).
 
 
-## 2. Modular architecture
+## Modular architecture
 
 The firmware follows the single responsibility principle, dividing the system into isolated and maintainable modules :
 
