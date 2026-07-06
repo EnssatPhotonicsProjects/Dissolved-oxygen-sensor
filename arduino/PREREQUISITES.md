@@ -1,41 +1,25 @@
-# 🛠️ Prerequisites & Project Configuration
+# Prerequisites & Project Configuration
 
 This document outlines the software dependencies, compatible hardware, and code architecture required to compile and run the open-source dissolved oxygen sensor (oxymeter) firmware.
+> **WARNING:** This firmware is designed **strictly for the Arduino Due** (3.3V ARM Cortex-M3 SAM3X8E architecture). It relies on low-level hardware registers (Hardware Timers `TC0`, high-speed analog-to-digital conversion `ADC`, and digital-to-analog conversion `DAC`).
 
----
 
-## 1. Hardware Requirements
-
-> **⚠️ CRITICAL WARNING:** This firmware is designed **strictly for the Arduino Due** (3.3V ARM Cortex-M3 SAM3X8E architecture). It relies heavily on low-level hardware registers (Hardware Timers `TC0`, high-speed analog-to-digital conversion `ADC`, and digital-to-analog conversion `DACC`). **It will NOT compile or run on an Arduino Uno, Mega, or Nano.**
-
-| Component | Reference / Model | Protocol / Pin |
-| :--- | :--- | :--- |
-| **Microcontroller** | Arduino Due | 3.3V Logic / Native USB Port (`SerialUSB`) |
-| **OLED Screen** | Midas - MDOB128064V2V-YI (128x64) | I2C (`Wire1`, 7-bit Address: `0x3C`) |
-| **MicroSD Shield** | Whadda - WPI304N | SPI (CS Pin: `Pin 13`) |
-| **Temperature Sensor**| TRU COMPONENTS TC-9445340 (OneWire / DS18B20) | Digital (`Pin 2`) |
-| **Emission (Blue LED)** | Driven by NPN BJT transistor | Analog Output (`DAC0`) |
-| **Reception (Photodiode)**| Transimpedance amplifier circuit | Analog Input (`ADC Channel 7`) |
-
----
-
-## 2. Software Dependencies
+## 1. Arduino dependencies
 
 Before compiling in the Arduino IDE, ensure the following external libraries are installed via the **Library Manager** (`Sketch` > `Include Library` > `Manage Libraries...`).
 
-### External Libraries to Install:
-* **`U8g2`** *(by oliver)*: Highly optimized monochrome display library (hardware I2C mode).
-* **`OneWire`** *(by Paul Stoffregen)*: Digital communication protocol for the OneWire thermal probe.
-* **`DallasTemperature`** *(by Miles Burton)*: High-level abstraction for precision temperature reads.
+### External libraries to install:
+* **`U8g2`** : Optimized monochrome display library (hardware I2C mode) for the OLED display.
+* **`OneWire`** : Digital communication protocol for the OneWire temperature probe.
+* **`DallasTemperature`** : High-level abstraction for precision temperature reads.
 
-### Native Libraries (Included with Arduino SAM Boards package):
+### Native libraries (Included with Arduino SAM Boards package):
 * **`SPI`**: High-speed communication for the MicroSD card shield.
 * **`SD`**: FAT16/FAT32 file system management for data logging.
 * **`Wire`**: I2C communication for the OLED display (utilizing the Due's secondary I2C port `Wire1`).
 
----
 
-## 3. Modular Firmware Architecture
+## 2. Modular architecture
 
 The firmware follows the Single Responsibility Principle, dividing the system into isolated, maintainable modules:
 
