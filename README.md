@@ -116,4 +116,4 @@ The dissolved oxygen sensor project started in september 2025 with a first team 
 
 ## License
 
-This project is licensed under [CC BY-SA 4.0]. Please see the [`LICENSE`](LICENSE.md) file for more details.
+This project is licensed under [CC BY-SA 4.0]. Please see the [LICENSE](LICENSE.md) file for more details.
