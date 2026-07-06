@@ -7,8 +7,7 @@ This document outlines the software dependencies and code architecture required 
 
 ## Arduino dependencies
 
-Before compiling in the Arduino IDE, ensure the following external libraries are installed via the **Library Manager** :
-
+Before compiling in the Arduino IDE, ensure the following external libraries are installed via the Library Manager : <br>
 (`Sketch` > `Include Library` > `Manage Libraries...`)
 
 ### External libraries to install:
