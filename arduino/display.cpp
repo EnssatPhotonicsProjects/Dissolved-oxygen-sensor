@@ -18,7 +18,7 @@ bool init_display() {
         u8g2.clearBuffer();
         u8g2.setFont(u8g_font_7x14);
         u8g2.drawStr(0, 26, "   CONNEXION TO   ");
-        u8g2.drawStr(0, 42, "   THE OXYMETER   ");
+        u8g2.drawStr(0, 42, "   THE OXIMETER   ");
         u8g2.sendBuffer();
         delay(2500);
         // Second screen ...
@@ -26,7 +26,7 @@ bool init_display() {
         u8g2.drawStr(0, 10, "Display : OK");
         u8g2.sendBuffer();
 
-        SerialUSB.println("2. init_display OK");
+        SerialUSB.println("1. init_display OK");
         return true;
     }
 }
@@ -44,7 +44,7 @@ bool update_display(float temperature, float o2_estimated_percent, float o2_sv_p
     // Write on screen -> results
     u8g2.clearBuffer();
     u8g2.setFont(u8g_font_7x14);
-    u8g2.drawStr(0, 10, "     OXYMETER     ");
+    u8g2.drawStr(0, 10, "     OXIMETER     ");
 
     u8g2.setCursor(0, 26);
     u8g2.print("Temp : ");

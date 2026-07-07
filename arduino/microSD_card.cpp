@@ -21,7 +21,7 @@ bool init_sd_card() {
     u8g2.drawStr(0, 42, "MicroSD card : OK");
     u8g2.sendBuffer();
 
-    SerialUSB.print("4. init_sd_card OK -> ");
+    SerialUSB.print("3. init_sd_card OK -> ");
     
     // File name generator
     int file_index = 0;
@@ -73,18 +73,15 @@ bool log_data(float temperature, float theta, float o2_estimated_percent, float 
 
         dataFile.println(o2_sv_percent, 4);
 
-        SerialUSB.print("Successful write to : [");
-        SerialUSB.print(filename);
-        SerialUSB.println("]");
+        SerialUSB.print("Successful write to : ["); SerialUSB.print(filename); SerialUSB.println("]");
 
         dataFile.flush(); 
         dataFile.close(); 
         return true;
     } else {
-        SerialUSB.print("Error : Failed to open : [");
-        SerialUSB.print(filename);
-        SerialUSB.println("]");
+        SerialUSB.print("Error : Failed to open : ["); SerialUSB.print(filename); SerialUSB.println("]");
         SerialUSB.println("Error : Failed to write to the microSD card.");
+        
         return false;
     }
 }

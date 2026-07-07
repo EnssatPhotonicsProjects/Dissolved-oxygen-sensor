@@ -1,6 +1,6 @@
 /**
  * @file tools.h
- * @brief Utility and signal processing math module for the oxymeter.
+ * @brief Utility and signal processing math module for the OXIMETER.
  ----------------------------------------------------------------------------
  * * This module stores global calibration constants (background noise,
  * Stern-Volmer coefficients) and performs all the mathematical translations 

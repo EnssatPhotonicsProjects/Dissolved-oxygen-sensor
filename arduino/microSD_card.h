@@ -6,7 +6,7 @@
  * an incrementally named text file per session. It safely writes timestamps, 
  * temperature, phase shift, and O2 concentrations in a tab-separated format.
  ----------------------------------------------------------------------------
- * Ref : MicroSD Card Shield | Whadda - WPI304N
+ * @note Hardware Reference : MicroSD Card Shield | Whadda - WPI304N
  */
 
 #ifndef MICROSD_CARD_H

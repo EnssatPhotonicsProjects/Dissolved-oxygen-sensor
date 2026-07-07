@@ -104,7 +104,7 @@ bool init_synchronous_detection() {
     u8g2.drawStr(0, 58, "Synchro Detec : OK");
     u8g2.sendBuffer();
 
-    SerialUSB.println("5. init_sync_detec OK");
+    SerialUSB.println("4. init_sync_detec OK");
     return true;
 }
 

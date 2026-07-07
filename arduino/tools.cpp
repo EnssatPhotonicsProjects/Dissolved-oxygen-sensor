@@ -1,6 +1,6 @@
 #include "tools.h"
 
-// Calibration of the Oxymeter 
+// Calibration of the OXIMETER 
   /* -> enter your values */
 const Complex F0 = {0.01513908, 0.01901101}; // Background noise of the circuit
 const float offset = 144.0;  // Offset in phase 
@@ -18,7 +18,7 @@ float calculate_theta(Complex fourier) {
     // Calculate and adding offset
     float theta_rad = atan2(corrected.imag, corrected.real) + (offset/180.0*PI); 
     float theta_deg = theta_rad*180.0/PI;
-    SerialUSB.print("theta = "); SerialUSB.print(theta_deg, 2); SerialUSB.print(" °; ");
+    SerialUSB.print("theta = "); SerialUSB.print(theta_deg, 2); SerialUSB.print(" ° ; ");
 
     return theta_deg;
 }
@@ -49,10 +49,11 @@ float calculate_o2_polynomial(float theta, float temperature) {
     p += (-1.4668345339e+05) * pow(theta_rad, 7);
     p += (7.3541142002e+03)  * pow(theta_rad, 6)*temperature;
     
-    SerialUSB.print("esti_o2_percent = "); SerialUSB.print(p, 2); SerialUSB.print(" %; ");
-
     // Result between 0% et 105%
-    return min(max(p, 0.0f), 105.0f);
+    p = min(max(p, 0.0f), 105.0f);
+    SerialUSB.print("esti_o2_percent = "); SerialUSB.print(p, 2); SerialUSB.print(" % ; ");
+    
+    return p;
 }
 
 // In order to estimate o2 percent with Stern-Volmer physic equation

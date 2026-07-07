@@ -6,7 +6,7 @@
  * probe. It safely handles critical communication timing by temporarily disabling 
  * hardware interrupts during reads and includes a retry system for reliability.
  ---------------------------------------------------------------------------------
- * Ref : Temperature sensor | TRU COMPONENTS TC-9445340
+ * @note Hardware Reference : Temperature sensor | TRU COMPONENTS TC-9445340
  */
 
 #ifndef TEMPERATURE_H

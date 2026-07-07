@@ -1,12 +1,12 @@
 /**
  * @file display.h
- * @brief OLED display management module for the OXYMETER.
+ * @brief OLED display management module for the OXIMETER.
  --------------------------------------------------------------------------
  * * This module handles the initialization and rendering of the 128x64 I2C 
  * OLED screen. It provides functions to show startup statuses, display 
  * measurements and draw a dynamic progress bar during data collection.
  --------------------------------------------------------------------------
- * Ref : OLED Screen 128x64 | Midas - MDOB128064V2V-YI
+ * @note Hardware Reference : OLED Screen 128x64 | Midas - MDOB128064V2V-YI
  */
 
 #ifndef DISPLAY_H

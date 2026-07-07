@@ -16,7 +16,7 @@ bool init_temperature() {
         u8g2.drawStr(0, 26, "Temperature : OK");
         u8g2.sendBuffer();
 
-        SerialUSB.println("3. init_temperature OK");
+        SerialUSB.println("2. init_temperature OK");
         return true;
     }
     else{
@@ -54,9 +54,8 @@ float read_temperature_retry(uint n_retry) {
     int retries = 0;
 
     while (temp <= -100.0 && retries < n_retry) {
-        delay(1000);
-        SerialUSB.print("temperature try : ");
-        SerialUSB.print(retries+1);
+        delay(500);
+        SerialUSB.print("temperature try : "); SerialUSB.print(retries+1);
 
         temp = read_temperature();
         retries++;
@@ -68,10 +67,7 @@ float read_temperature_retry(uint n_retry) {
     }
 
     old_temp = temp;
-
-    SerialUSB.print(" -> temperature = ");
-    SerialUSB.print(temp, 2);
-    SerialUSB.println(" °C");
+    SerialUSB.print(" -> temperature = "); SerialUSB.print(temp, 2); SerialUSB.println(" °C");
     
     return temp;
 }
