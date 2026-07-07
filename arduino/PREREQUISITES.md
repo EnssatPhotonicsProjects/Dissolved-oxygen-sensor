@@ -1,6 +1,6 @@
 # Prerequisites & code configuration
 
-This document outlines the software dependencies and code architecture required to compile and run the open-source dissolved oxygen sensor (oxymeter) firmware.
+This document outlines the arduino dependencies and code architecture required to compile and run the open-source dissolved oxygen sensor (oxymeter) firmware.
 
 > **WARNING :** This firmware is designed strictly for the Arduino Due (3.3V ARM Cortex-M3 SAM3X8E architecture). It relies on low-level hardware registers (Hardware Timers `TC0`, analog-to-digital conversion `ADC` and digital-to-analog conversion `DAC`).
 
@@ -21,9 +21,9 @@ Before compiling in the Arduino IDE, ensure the following external libraries are
 * **`Wire`** : I2C communication for the OLED display (utilizing the Due's secondary I2C port `Wire1`).
 
 
-## Modular architecture
+## Code architecture
 
-The firmware follows the single responsibility principle, dividing the system into isolated modules :
+The firmware follows the single responsibility principle, dividing the system into isolated modules. All of these modules are included in the [Oximeter]() folder :
 
 ```text
 ├── Optode_O2_dissous.ino     # System orchestrator (main loop and measurement cycle sequencing)
