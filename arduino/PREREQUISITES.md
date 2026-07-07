@@ -23,7 +23,7 @@ Before compiling in the Arduino IDE, ensure the following external libraries are
 
 ## Code architecture
 
-The firmware follows the single responsibility principle, dividing the system into isolated modules. All of these modules must be placed in a folder named [Oximeter](https://github.com/EnssatPhotonicsProjects/Dissolved-oxygen-sensor/tree/main/arduino/Oximeter):
+The firmware follows the single responsibility principle, dividing the system into isolated modules. All of these modules must be placed in a folder named [Oximeter](arduino/Oximeter):
 
 ```text
 Oximeter/
