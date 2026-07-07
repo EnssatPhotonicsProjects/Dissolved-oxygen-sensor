@@ -21,7 +21,7 @@ The document [Optode overview](Optode_overview.pdf) aims to provide an overview 
 ## Principle of dissolved oxygen sensor
 
 <p align="center">
-  <img src="images/Principle_diagram.jpg" alt="Principle diagram" width="350"/>
+  <img src="images/Principle_diagram.jpg" alt="Principle diagram" width="400"/>
 </p>
 The measurement principle is based on the use of a luminophore. An emitting blue light is absorbed by a sensitive foil exposed to water. Then it returns red light through fluorescence. By measuring the phase shift between the blue and red signal, the concentration of dissolved oxygen can be determined.
 
