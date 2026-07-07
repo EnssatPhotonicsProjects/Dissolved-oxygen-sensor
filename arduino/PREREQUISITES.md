@@ -26,6 +26,7 @@ Before compiling in the Arduino IDE, ensure the following external libraries are
 The firmware follows the single responsibility principle, dividing the system into isolated modules. All of these modules must be placed in a folder named [Oximeter](https://github.com/EnssatPhotonicsProjects/Dissolved-oxygen-sensor/tree/main/arduino/Oximeter):
 
 ```text
+Oximeter/
 ├── Oximeter.ino              # System orchestrator (main loop and measurement cycle sequencing)
 ├── synchronous_detection.*   # Low-level lock-in amplifier (Timer ISRs, DAC sine modulation, ADC reads)
 ├── tools.*                   # Mathematical models (F0 noise subtraction, Stern-Volmer, polynomial fit)
