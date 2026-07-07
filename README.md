@@ -14,7 +14,7 @@ The document [Optode overview](Optode_overview.pdf) aims to provide an overview 
 
 ## Features
 
-- Measures the percentage of dissolved oxygen within a range of [0 to 100] %.
+- Measures the percentage of dissolved oxygen within a range of 0 to 105 %.
 - Low-cost (approximately ??), low-tech, and open-source design.
 - Portable
 
