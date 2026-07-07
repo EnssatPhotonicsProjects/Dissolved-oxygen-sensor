@@ -45,7 +45,7 @@ The main components are:
 
 For a detailed list of components with the references, please refer to the [Components List](hardware/components.md).
 
-## Construction of the device : OXYMETER
+## Construction of the device : OXIMETER
 
 ### Prerequisites
 
