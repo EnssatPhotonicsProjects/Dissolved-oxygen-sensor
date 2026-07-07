@@ -11,9 +11,9 @@ Before compiling in the Arduino IDE, ensure the following external libraries are
 (`Sketch` > `Include Library` > `Manage Libraries...`)
 
 ### External libraries to install:
-* **`U8g2`** : Optimized monochrome display library (hardware I2C mode) for the OLED display.
+* **`U8g2`** : Monochrome display library for the OLED display.
 * **`OneWire`** : Digital communication protocol for the OneWire temperature probe.
-* **`DallasTemperature`** : High-level abstraction for precision temperature reads.
+* **`DallasTemperature`** : Data extraction for the OneWire temperature probe.
 
 ### Native libraries (Included with Arduino SAM Boards package):
 * **`SPI`** : High-speed communication for the MicroSD card shield.
@@ -23,13 +23,13 @@ Before compiling in the Arduino IDE, ensure the following external libraries are
 
 ## Modular architecture
 
-The firmware follows the single responsibility principle, dividing the system into isolated and maintainable modules :
+The firmware follows the single responsibility principle, dividing the system into isolated modules :
 
 ```text
 ├── Optode_O2_dissous.ino     # System orchestrator (main loop and measurement cycle sequencing)
 ├── synchronous_detection.*   # Low-level lock-in amplifier (Timer ISRs, DAC sine modulation, ADC reads)
 ├── tools.*                   # Mathematical models (F0 noise subtraction, Stern-Volmer, polynomial fit)
 ├── complex.*                 # Custom operator for complex number arithmetic (+, -, *, /)
-├── temperature.*             # Thermal reads with safe interrupt management (Non-blocking)
+├── temperature.*             # Temperature reads with safe interrupt management (Non-blocking)
 ├── display.*                 # OLED visual interfaces (boot status, live results, progress bar)
 └── microSD_card.*            # Data logging (automatic session file creation and TSV data writing)
