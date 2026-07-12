@@ -91,37 +91,37 @@ The materials required for this step are :
 5. Take the bottom plate and the LED and photodiode support. Screw this support under the bottom plate. Make sure that the large hole in the plate is on the same side as the wires. Pass the wires through the hole.
 
 <p align="center">
-  <img src="images/structure_assembly/.jpg" alt="" width="400"/>
+  <img src="images/structure_assembly/5.bottom.jpg" alt="5.bottom" width="400"/>
 </p>
 
-6. Screw the 30 mm spacers into the four corners.
-
-<p align="center">
-  <img src="images/structure_assembly/.jpg" alt="" width="400"/>
-</p>
-
-7. Screw the LED and photodiode wires into terminal strips of the PCB. Make sure to connect the cathode and anode to the correct terminals.
+6. Screw the LED and photodiode wires into terminal strips of the PCB. Make sure to connect the cathode and anode to the correct terminals.
 
 <p align="center">
   <img src="images/structure_assembly/6.wires.jpg" alt="6.wires" width="400"/>
 </p>
 
-8. Screw the 30 mm spacers into the four corners of the middle plate and put the middle structure, bend the wires of the LED and photodiode, without moving LED and photodiode.
+7. Screw the 30 mm spacers into the four corners of the middle plate and put the middle structure, bend the wires of the LED and photodiode, without moving LED and photodiode.
 
 <p align="center">
   <img src="images/structure_assembly/7.center.jpg" alt="7.center" width="400"/>
 </p>
 
-9. Screw the top plate.
+8. Screw the top plate.
 
 <p align="center">
   <img src="images/structure_assembly/8.top.jpg" alt="8.top" width="400"/>
 </p>
 
-10. Put the powerbank and the alimentation cable. Fasten it to the spacers with a cable tie.
+9. Put the powerbank and the alimentation cable. Fasten it to the spacers with a cable tie.
 
 <p align="center">
   <img src="images/structure_assembly/9.battery.jpg" alt="9.battery" width="400"/>
+</p>
+
+10. Attach the temperature sensor cable to the spacers located between the battery and the opening in the plate. The cable should extend upwards, with a disponible length of approximately 40 cm, to facilitate positioning within the housing.
+
+<p align="center">
+  <img src="images/structure_assembly/10.temperature_sensor.jpg" alt="10.temperature_sensor" width="400"/>
 </p>
 
 ## Step 3 : Assemble the waterproof box
