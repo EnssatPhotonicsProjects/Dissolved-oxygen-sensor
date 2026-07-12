@@ -100,16 +100,16 @@ The materials required for this step are :
   <img src="images/structure_assembly/.jpg" alt="" width="400"/>
 </p>
 
-7. Screw the LED, photodiode and temperature sensor wires into terminal strips of the PCB.
+7. Screw the LED and photodiode wires into terminal strips of the PCB. Make sure to connect the cathode and anode to the correct terminals.
 
 <p align="center">
-  <img src="images/structure_assembly/.jpg" alt="" width="400"/>
+  <img src="images/structure_assembly/6.wires.jpg" alt="6.wires" width="400"/>
 </p>
 
-8. Put the face plate in the bottom plate, bend the wires of the LEDs and photodiode, without moving LED and photodiode.
+8. Screw the 30 mm spacers into the four corners of the middle plate and put the middle structure, bend the wires of the LED and photodiode, without moving LED and photodiode.
 
 <p align="center">
-  <img src="images/structure_assembly/.jpg" alt="" width="400"/>
+  <img src="images/structure_assembly/7.center.jpg" alt="7.center" width="400"/>
 </p>
 
 9. Screw the top plate.
